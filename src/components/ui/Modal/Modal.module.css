@@ -1,0 +1,92 @@
+.containerPrincipalModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: brightness(85%) blur(4px);
+    z-index: 999;
+  }
+  
+  .contentPopUp {
+    background-color: #ffffff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    width: 35vw;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    border-radius: 1rem;
+    transition: all 0.3s ease;
+  }
+  
+  .contentPopUp h3 {
+    color: #0d6efd;
+    font-size: 1.3rem;
+    margin: 0;
+  }
+  
+  .formContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 1rem;
+    width: 100%;
+  }
+  
+  .formContent input,
+  .formContent textarea {
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-family: inherit;
+    resize: none;
+    transition: border 0.2s ease;
+  }
+  
+  .formContent input:focus,
+  .formContent textarea:focus {
+    border-color: #0d6efd;
+    outline: none;
+  }
+  
+  .buttonCard {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 1rem;
+  }
+  
+  .buttonCard button {
+    padding: 0.6rem 1.4rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #0d6efd;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+  }
+  
+  .buttonCard button:hover {
+    cursor: pointer;
+    background-color: #0b5ed7;
+    transform: translateY(-1px);
+  }
+  
+  .buttonCard button:first-child {
+    background-color: #dc3545;
+  }
+  
+  .buttonCard button:first-child:hover {
+    background-color: #bb2d3b;
+  }
+  

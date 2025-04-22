@@ -1,1 +1,1 @@
-subo el .rar con los estilos y todo aplicado
+subo los cambios a git con los estilos y todo aplicado

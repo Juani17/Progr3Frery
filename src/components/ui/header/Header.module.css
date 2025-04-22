@@ -1,0 +1,21 @@
+.containerHeader {
+    width: 100vw;
+    height: 8vh;
+    background: linear-gradient(90deg, #0d6efd 0%, #6610f2 100%);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .containerTitleHeader {
+    margin-left: 4vw;
+  }
+  
+  .containerTitleHeader h2 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  

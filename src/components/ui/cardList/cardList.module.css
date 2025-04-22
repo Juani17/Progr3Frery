@@ -1,0 +1,79 @@
+.containerCard {
+  width: 100%;
+  background-color: #dee2e6; /* color gris-azulado claro */
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+.containerCard:hover {
+  transform: scale(1.01);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+.containerCard h3 {
+  margin: 0 0 0.5rem 0;
+  color: #1f2d3d; /* gris más fuerte */
+  font-size: 1.25rem;
+}
+
+.containerCard p {
+  margin: 0.2rem 0;
+  color: #495057;
+  font-size: 1rem;
+}
+
+.containerCard b {
+  color: #0d6efd; /* azul fuerte */
+}
+
+.actionCard {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.actionCard button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  color: white;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+/* Botón Eliminar */
+.actionCard button:first-child {
+  background-color: #dc3545; /* rojo */
+}
+
+.actionCard button:first-child:hover {
+  background-color: #bb2d3b;
+  transform: translateY(-2px);
+}
+
+.actionCard button:first-child:active {
+  transform: translateY(0);
+  background-color: #a52834;
+}
+
+/* Botón Editar */
+.actionCard button:last-child {
+  background-color: #0d6efd; /* azul */
+}
+
+.actionCard button:last-child:hover {
+  background-color: #0b5ed7;
+  transform: translateY(-2px);
+}
+
+.actionCard button:last-child:active {
+  transform: translateY(0);
+  background-color: #0a58ca;
+}
